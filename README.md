@@ -29,14 +29,19 @@
     <td align="center"> <img src = "./assets/results/Set14_baboon_DTKD-LBNet.png" width="240" height="240" > </td>
   </tr>
   <tr>
-    <td align="center"> <img src = "./assets/results/A_IMG_160.jpg" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/A_IMG_160_gt121_c117.jpg" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/A_IMG_160_sr.jpg" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/BSD100_37073_LR.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/BSD100_37073_DTKD-RFDN.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/BSD100_37073_DTKD-LBNet.png" width="240" height="240" > </td>
   </tr>
   <tr>
-    <td align="center"> <img src = "./assets/results/JHU_IMG_0895.jpg" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/JHU_IMG_895_gt941_c1200_IRM.jpg" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/JHU_IMG_895_sr.jpg" width="240" height="240"  > </td>
+    <td align="center"> <img src = "./assets/results/Urban100_img_067_LR.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/Urban100_img_067_DTKD-RFDN.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/Urban100_img_067_DTKD-LBNet.png" width="240" height="240"  > </td>
+  </tr>
+    <tr>
+    <td align="center"> <img src = "./assets/results/Manga109_YumeiroCooking_LR.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/Manga109_YumeiroCooking_DTKD-RFDN.png" width="240" height="240" > </td>
+    <td align="center"> <img src = "./assets/results/Manga109_YumeiroCooking_DTKD-LBNet.png" width="240" height="240"  > </td>
   </tr>
   <tr>
     <td align="center"><p><b>Input</b></p></td>
