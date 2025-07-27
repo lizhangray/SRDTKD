@@ -26,11 +26,6 @@
     <td align="center"> <img src = "./assets/results/Set14_baboon_DTKD-LBNet.png" width="240" height="240" > </td>
   </tr>
   <tr>
-    <td align="center"> <img src = "./assets/results/BSD100_37073_LR.png" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/BSD100_37073_DTKD-RFDN.png" width="240" height="240" > </td>
-    <td align="center"> <img src = "./assets/results/BSD100_37073_DTKD-LBNet.png" width="240" height="240" > </td>
-  </tr>
-  <tr>
     <td align="center"> <img src = "./assets/results/Urban100_img_067_LR.png" width="240" height="240" > </td>
     <td align="center"> <img src = "./assets/results/Urban100_img_067_DTKD-RFDN.png" width="240" height="240" > </td>
     <td align="center"> <img src = "./assets/results/Urban100_img_067_DTKD-LBNet.png" width="240" height="240"  > </td>

@@ -11,6 +11,7 @@ Result/*
 # Pth_record/*
 colab
 Checkpoints/EdgeSRN/EdgeSRN_x4.pth
+Checkpoints/SwinIR/lightweightSR_SwinIRx4.pth
 
 *.DS_Store
 .idea
