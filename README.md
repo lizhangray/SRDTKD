@@ -8,8 +8,9 @@
 
 ## Datasets
 
-| Crowd Dataset          | Link                                                         |
+| Dataset          | Link                                                         |
 | ---------------------- | ------------------------------------------------------------ |
+| DIV2K | [[**Website**](https://data.vision.ee.ethz.ch/cvl/DIV2K/)] |
 | Set5+Set14+BSD100+Urban100+Manga109+RealSRSet | [[**Google**](https://drive.google.com/file/d/1uCeHtVO1_Mnc3KnOKzLd0JyOUhzzKKNo/view?usp=sharing)] |
 
 ## Example
