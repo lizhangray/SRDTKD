@@ -67,7 +67,6 @@
 ```bash
 torch
 torchvision
-tensorboardX
 easydict
 pandas
 numpy
@@ -75,82 +74,92 @@ scipy
 matplotlib
 Pillow
 opencv-python
+scikit-image
 ```
 
 #### Install
 
 ```bash
-git clone https://github.com/lizhangray/Dehaze-P2PNet.git
+git clone https://github.com/lizhangray/DTKD.git
 pip install -r requirements.txt
 ```
 
 #### Download Datasets and Pre-trained Models to Prepare Your Directory Structure
 
 ```bash
-Dehaze-P2PNet
+ DTKD
     |- assets
-    |- crowd_datasets
-    |- datasets
-        |- Hazy_JHU
-            |- test_data
-            |- train_data
-            |- val
-        |- Hazy_ShanghaiTech
-            |- PartA
-                |- test_data
-                |- train_data
-                |- val
+    |- Checkpoints
+        |- EdgeSRN
+            |- EdgeSRN_x4.pth
+        |- LBNet
+            |- DTKD-LBNet.pth
+            |- DTKD-LBNet-perceptual.pth
+        |- RFDN
+            |- DTKD-RFDN.pth
+            |- DTKD-RFDN-perceptual.pth
+    |- Datasets
+    |- Datasets2023
+        |- GT
+            |- BSD100
+            |- Manga109
                 ....
-        |- Hazy_ShanghaiTechRGBD
+        |- GTmod12
+            |- BSD100_GTmod12
+            |- Manga109_GTmod12
+                ....
+        |- GTmod12_LRx4
+            |- BSD100_LRbicx4
+            |- Manga109_LRbicx4
+                ....
+        |- RealSRSet
         ....
-    |- models
-    |- util
-    |- weights
-        |- DH_SHTA_best.pth
-        |- DH_SHTB_best.pth
-        ....
-        |- vgg16_bn-6c64b313.pth
-    |- engine.py
-    |- run_test.py
+    |- Model
+    |- Utils
+    |- demo.sh
+    |- main.py
+    |- requirements.txt
+    |- Trainer.py
 ```
 
 #### How To Test
 
 ```bash
-python run_test.py --dataset_file NAME_OF_DATASET --weight_path CHECKPOINT_PATH
+python main.py --Train False ----model_name NAME_OF_MODEL --checkpoint CHECKPOINT_PATH --test_folder TESTSET_PATH
 
-# e.g., Hazy-JHU
-python run_test.py --dataset_file Hazy_JHU --weight_path weights/Hazy_JHU_best.pth
+# e.g., test DTKD-RFDN in Set5
+python main.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
 
-# e.g., Hazy-ShanghaiTech PartA
-python run_test.py --dataset_file Hazy_SHTA --weight_path weights/DH_SHTA_best.pth
+# e.g., test DTKD-LBNet in Set5
+python main.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
 
-# e.g., Hazy-ShanghaiTech PartB
-python run_test.py --dataset_file Hazy_SHTB --weight_path weights/DH_SHTB_best.pth
+# e.g., test DTKD-RFDN in Urban100
+python main.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
 
-# e.g., Hazy-ShanghaiTechRGBD
-python run_test.py --dataset_file Hazy_SHARGBD --weight_path weights/Hazy_SHTRGBD_best.pth
-
-# e.g., Rainy-ShanghaiTechRGBD
-python run_test.py --dataset_file Rainy_SHARGBD --weight_path weights/Rainy_SHTRGBD_best.pth
+# e.g., test DTKD-LBNet in Urban100
+python main.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
 ```
 
-There are two parameters that must be provided:
+There are four parameters that must be provided:
 
-`'--dataset_file', help='(Hazy_JHU | Hazy_SHARGBD | Hazy_SHTA | Hazy_SHTB | Rainy_SHARGBD)'`
+`'--Train', defalt=False`
 
-`'--weight_path', help='load pretrained weight from checkpoint', such as 'weights/Hazy_JHU_best.pth'`
+`'--model_name', help='(RFDN | LBNet | EdgeSRN)'`
+
+`'--checkpoint', help='load pretrained weight from checkpoint', such as 'DTKD-RFDN.pth'`
+
+`'--test_folder', help='load testset from folder', such as 'Datasets2023/GTmod12_LRx4/Set5_LRbicx4'`
 
 ## Citation
 
 Please cite this paper in your publications if it is helpful for your tasks.
 
 ```tex
-@InProceedings{yuan2024crowd,
-    author    = {Yuan, Weijun and Li, Zhan and Li, Xiaohan and Fang, Liangda and Zhang, Qingfeng and Qiu, Zhixiang},
-    title     = {Crowd Counting and Localization in Haze and Rain},
-    booktitle = {2024 IEEE International Conference on Multimedia and Expo (ICME)},
-    year      = {2024}
+@artical{li2025reliable,
+    author    = {xxx},
+    title     = {Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation},
+    booktitle = {xxx},
+    year      = {2025}
 }
 
 ```
