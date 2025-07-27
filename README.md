@@ -147,11 +147,11 @@ There are four parameters that must be provided:
 
 #### Visual Results
 
-- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/drive/folders/1cpg-pwuWethFOBNBPr6gNU5Qc_P9z1BV?usp=sharing)
-- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/drive/folders/1HJTn3KraAKfEm6YuSxJVl6vzIrk_dQkR?usp=sharing)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/drive/folders/1eVz0cBNMNyz12WPL5r5dwHDqAFxDXakm?usp=sharing)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/drive/folders/1lzV3PVkcuV17UQjavzRF9OIelRf8PPdC?usp=sharing)
-- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/drive/folders/1X1I-VFaOAzC3S5HzXbfDnXnebscn8qFy?usp=sharing)
+- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
+- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
+- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
 
 ## Citation
 
