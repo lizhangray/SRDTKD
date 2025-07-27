@@ -48,12 +48,12 @@
 
 #### Pre-trained Models
 
-- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/file/d/1WPq27wVk5bZL5c_I2oECLJxeB1KdbVxl/view?usp=drive_link)
-- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/file/d/1P6S0yBAA3tVfw6pN5DCbHXNnVZHLY6rc/view?usp=drive_link)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/file/d/1oChjWY4qb3ceDPsRTQykPW-i4nrlMvvR/view?usp=drive_link)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/file/d/1ygSgLprl63bqKXhUMFkkvTdYbrf9DGai/view?usp=drive_link)
-- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/file/d/1f-0D6CaTyvB-2glnOGNqTFPFsmR-iTPj/view?usp=sharing)
-- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/file/d/18tnpN1RH4895DqjNdgZnh-p56JQnyOd3/view?usp=sharing)
+- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
 
 #### Environment
 
