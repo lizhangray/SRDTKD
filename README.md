@@ -48,20 +48,12 @@
 
 #### Pre-trained Models
 
-- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/file/d/18saECAlz6mc7_neo8_uLeBrc7xs5UKVf/view?usp=sharing)
-- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/file/d/1Tu9VH0FmWyMTTwe8rqQt3gq_U2mUZGY3/view?usp=share_link)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/file/d/1DrVEb2exzgO17ZbtoaJZctgTiqRaiuMo/view?usp=sharing)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/file/d/1jQv0Kj8aT_PGUi4LzWppiGPpXQtq15uG/view?usp=sharing)
-- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
-- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
-
-#### Visual Results
-
-- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/file/d/18saECAlz6mc7_neo8_uLeBrc7xs5UKVf/view?usp=sharing)
-- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/file/d/1Tu9VH0FmWyMTTwe8rqQt3gq_U2mUZGY3/view?usp=share_link)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/file/d/1DrVEb2exzgO17ZbtoaJZctgTiqRaiuMo/view?usp=sharing)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/file/d/1jQv0Kj8aT_PGUi4LzWppiGPpXQtq15uG/view?usp=sharing)
-- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
+- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/file/d/1WPq27wVk5bZL5c_I2oECLJxeB1KdbVxl/view?usp=drive_link)
+- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/file/d/1P6S0yBAA3tVfw6pN5DCbHXNnVZHLY6rc/view?usp=drive_link)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/file/d/1oChjWY4qb3ceDPsRTQykPW-i4nrlMvvR/view?usp=drive_link)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/file/d/1ygSgLprl63bqKXhUMFkkvTdYbrf9DGai/view?usp=drive_link)
+- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/file/d/1f-0D6CaTyvB-2glnOGNqTFPFsmR-iTPj/view?usp=sharing)
+- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/file/d/18tnpN1RH4895DqjNdgZnh-p56JQnyOd3/view?usp=sharing)
 
 #### Environment
 
@@ -152,6 +144,14 @@ There are four parameters that must be provided:
 `'--checkpoint', help='load pretrained weight from checkpoint', such as 'DTKD-RFDN.pth'`
 
 `'--test_folder', help='load testset from folder', such as 'Datasets2023/GTmod12_LRx4/Set5_LRbicx4'`
+
+#### Visual Results
+
+- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/drive/folders/1cpg-pwuWethFOBNBPr6gNU5Qc_P9z1BV?usp=sharing)
+- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/drive/folders/1HJTn3KraAKfEm6YuSxJVl6vzIrk_dQkR?usp=sharing)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/drive/folders/1eVz0cBNMNyz12WPL5r5dwHDqAFxDXakm?usp=sharing)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/drive/folders/1lzV3PVkcuV17UQjavzRF9OIelRf8PPdC?usp=sharing)
+- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/drive/folders/1X1I-VFaOAzC3S5HzXbfDnXnebscn8qFy?usp=sharing)
 
 ## Citation
 
