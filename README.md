@@ -10,10 +10,7 @@
 
 | Crowd Dataset          | Link                                                         |
 | ---------------------- | ------------------------------------------------------------ |
-| Hazy-JHU               | [[**Google**](https://drive.google.com/file/d/1rLQ_oXHFAUqaYktk-3OFpHHk7uohEcNt/view?usp=sharing)] \| [[**BaiduNetdisk**](https://pan.baidu.com/s/1YZuWGhxZGyFmwVRntamCvA?pwd=xhcm)] |
-| Hazy-ShanghaiTech      | [[**Google**](https://drive.google.com/file/d/1ibvFlZ-sdd_A6xEI1cFuXk4_hHf409Mt/view?usp=sharing)] \| [[**BaiduNetdisk**](https://pan.baidu.com/s/197CyDnxarjCL3O66yIfNwQ?pwd=jky9)] |
-| Hazy-ShanghaiTechRGBD  | [[**Google**](https://drive.google.com/file/d/1rJD9IBuKA1Nhm-Ek3yDe-8V11CLKZnaG/view?usp=drive_link)] |
-| Rainy-ShanghaiTechRGBD | [[**Google**](https://drive.google.com/file/d/1uCeHtVO1_Mnc3KnOKzLd0JyOUhzzKKNo/view?usp=sharing)] |
+| Set5+Set14+BSD100+Urban100+Manga109+RealSRSet | [[**Google**](https://drive.google.com/file/d/1uCeHtVO1_Mnc3KnOKzLd0JyOUhzzKKNo/view?usp=sharing)] |
 
 ## Example
 
@@ -55,12 +52,20 @@
 
 #### Pre-trained Models
 
-- **Hazy-JHU** → [Hazy_JHU_best.pth](https://drive.google.com/file/d/18saECAlz6mc7_neo8_uLeBrc7xs5UKVf/view?usp=sharing)
-- **Hazy-ShanghaiTech PartA** → [DH_SHTA_best.pth](https://drive.google.com/file/d/1DrVEb2exzgO17ZbtoaJZctgTiqRaiuMo/view?usp=sharing)
-- **Hazy-ShanghaiTech PartB** → [DH_SHTB_best.pth](https://drive.google.com/file/d/1Tu9VH0FmWyMTTwe8rqQt3gq_U2mUZGY3/view?usp=share_link)
-- **Hazy-ShanghaiTechRGBD** → [Hazy_SHTRGBD_best.pth](https://drive.google.com/file/d/1jQv0Kj8aT_PGUi4LzWppiGPpXQtq15uG/view?usp=sharing)
-- **Rainy-ShanghaiTechRGBD** → [Rainy_SHTRGBD_best.pth](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
-- [vgg16_bn-6c64b313.pth](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth)
+- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/file/d/18saECAlz6mc7_neo8_uLeBrc7xs5UKVf/view?usp=sharing)
+- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/file/d/1Tu9VH0FmWyMTTwe8rqQt3gq_U2mUZGY3/view?usp=share_link)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/file/d/1DrVEb2exzgO17ZbtoaJZctgTiqRaiuMo/view?usp=sharing)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/file/d/1jQv0Kj8aT_PGUi4LzWppiGPpXQtq15uG/view?usp=sharing)
+- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
+- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
+
+#### Visual Results
+
+- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/file/d/18saECAlz6mc7_neo8_uLeBrc7xs5UKVf/view?usp=sharing)
+- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/file/d/1Tu9VH0FmWyMTTwe8rqQt3gq_U2mUZGY3/view?usp=share_link)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/file/d/1DrVEb2exzgO17ZbtoaJZctgTiqRaiuMo/view?usp=sharing)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/file/d/1jQv0Kj8aT_PGUi4LzWppiGPpXQtq15uG/view?usp=sharing)
+- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/file/d/1Fqr7RqSJk-fSUw9YMpCg2MZnsBhynFWJ/view?usp=sharing)
 
 #### Environment
 
@@ -98,6 +103,8 @@ pip install -r requirements.txt
         |- RFDN
             |- DTKD-RFDN.pth
             |- DTKD-RFDN-perceptual.pth
+        |- SwinIR
+            |- lightweightSR_SwinIRx4.pth
     |- Datasets
     |- Datasets2023
         |- GT
@@ -144,7 +151,7 @@ There are four parameters that must be provided:
 
 `'--Train', defalt=False`
 
-`'--model_name', help='(RFDN | LBNet | EdgeSRN)'`
+`'--model_name', help='(RFDN | LBNet | EdgeSRN | SwinIR)'`
 
 `'--checkpoint', help='load pretrained weight from checkpoint', such as 'DTKD-RFDN.pth'`
 
