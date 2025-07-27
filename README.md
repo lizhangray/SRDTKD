@@ -4,7 +4,7 @@
 
 ------
 
-> **Abstract:** *Adverse weather conditions such as haze and fog often significantly reduce the performance of crowd counting models. An intuitive solution is to preprocess degraded images by applying image restoration techniques prior to crowd counting. However, this solution introduces additional computational complexity and may produce restored images with noise and artifacts that is harmful to the subsequent crowd counting task. To mitigate the two issues, we integrate an image restoration module (IRM) into a unified framework to propose an effective network for crowd counting and localization in haze and rain. The lightweight IRM is designed to guide the network to learn haze-aware knowledge in feature space, which is removed in the inference phase without increasing the computational cost. In addition, two new datasets are constructed to evaluate the crowd counting methods in haze and rain. Extensive experiments on both synthetic and real-world datasets demonstrate the superiority of the proposed method.*
+> **Abstract:** *Reliable image super-resolution (SR) requires recovery of accurate textures and trustworthy details for real-world applications. It is challenging for SR methods to achieve both high reconstruction fidelity and desirable perceptual quality, even at the cost of excessive computational complexity. As a model-compression technique, knowledge distillation (KD) provides a solution for training an efficient lightweight student model with the guidance of a high-performance teacher network. However, untrustworthy teachers that generate false textures will increase generalization errors in SR KD, resulting in a performance detriment of their student. To address these issues, we present a theoretical analysis of errors that arise in SR KD and discuss various conditions for distinguishing \``good’’ teachers that generate reliable and learnable textures. Based on our theoretical criteria, we propose a dual-teacher KD (DTKD) framework that incorporates both fidelity and perceptual teachers to train lightweight and balanced SR student models. To reduce errors in KD training, we design plug-in modules of image entropy routing and two attention loss functions. To construct a ``good'' perceptual teacher for KD training, we further design an edge-guided SR network, called EdgeSRN, which replaces generative adversarial networks by incorporating edge-enhanced learning to reduce artifacts. Extensive evaluations regarding both the reconstruction accuracy and perceptual quality verify that student models trained using the proposed DTKD outperform other state-of-the-art SR methods with fewer network parameters and lower computation costs.*
 
 ## Datasets
 
@@ -19,9 +19,9 @@
 
 <table>
   <tr>
-    <td align="center"> <img src = "./assets/results/Rain_IMG_0045.jpg" width="240" height="135" > </td>
-    <td align="center"> <img src = "./assets/results/Rain_IMG_45_gt14_c15_IRM.jpg" width="240" height="135" > </td>
-    <td align="center"> <img src = "./assets/results/Rain_IMG_45_sr.jpg" width="240" height="135" > </td>
+    <td align="center"> <img src = "./assets/results/Set5_head_LR.png" width="240" height="135" > </td>
+    <td align="center"> <img src = "./assets/results/Set5_head_DTKD-RFDN.png" width="240" height="135" > </td>
+    <td align="center"> <img src = "./assets/results/Set5_head_DTKD-LBNet.png" width="240" height="135" > </td>
   </tr>
   <tr>
     <td align="center"> <img src = "./assets/results/RGBD_IMG_3.jpg" width="240" height="135" > </td>
@@ -40,8 +40,8 @@
   </tr>
   <tr>
     <td align="center"><p><b>Input</b></p></td>
-    <td align="center"><p><b>Ours</b></p></td>
-    <td align="center"><p><b>Restored Image</b></p></td>
+    <td align="center"><p><b>DTKD-RFDN</b></p></td>
+    <td align="center"><p><b>DTKD-LBNet</b></p></td>
   </tr>
 </table>
 
