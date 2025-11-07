@@ -1,4 +1,4 @@
-# DTKD
+# SRDTKD
 
 ## [KBS 2025] 《Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation》
 
