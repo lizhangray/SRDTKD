@@ -158,11 +158,13 @@ There are four parameters that must be provided:
 Please cite this paper in your publications if it is helpful for your tasks.
 
 ```tex
-@artical{li2025reliable,
-    author    = {xxx},
-    title     = {Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation},
-    booktitle = {xxx},
-    year      = {2025}
+@article{li2025reliable,
+  title={Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation},
+  author={Li, Zhan and Yuan, Weijun and Yao, Boyang and Chen, Yihang and Bhanu, Bir and Zhang, Kehuan},
+  journal={Knowledge-Based Systems},
+  pages={114843},
+  year={2025},
+  publisher={Elsevier}
 }
 
 ```
