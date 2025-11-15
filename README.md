@@ -80,7 +80,7 @@ pip install -r requirements.txt
 #### Download Datasets and Pre-trained Models to Prepare Your Directory Structure
 
 ```bash
- DTKD
+ SRDTKD
     |- assets
     |- Checkpoints
         |- EdgeSRN
@@ -112,9 +112,9 @@ pip install -r requirements.txt
     |- Model
     |- Utils
     |- demo.sh
-    |- main.py
+    |- main_for_infer.py
     |- requirements.txt
-    |- Trainer.py
+    |- Trainer_for_infer.py
 ```
 
 #### How To Infer
