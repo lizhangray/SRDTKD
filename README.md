@@ -48,12 +48,12 @@
 
 #### Pre-trained Models
 
-- **DTKD-LBNet** → [DTKD-LBNet.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
-- **DTKD-RFDN** → [DTKD-RFDN.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
-- **EdgeSRN** → [EdgeSRN_x4.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
-- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://drive.google.com/drive/folders/1r0JfdgOLZtMcJyGm51SAmbvk5ThMF2Uw?usp=sharing)
+- **DTKD-LBNet** → [DTKD-LBNet.pth](https://pan.quark.cn/s/7074834cfec9)
+- **DTKD-RFDN** → [DTKD-RFDN.pth](https://pan.quark.cn/s/7074834cfec9)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual.pth](https://pan.quark.cn/s/7074834cfec9)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual.pth](https://pan.quark.cn/s/7074834cfec9)
+- **EdgeSRN** → [EdgeSRN_x4.pth](https://pan.quark.cn/s/7074834cfec9)
+- **SwinIR-S** → [lightweightSR_SwinIRx4.pth](https://pan.quark.cn/s/7074834cfec9)
 
 #### Environment
 
@@ -73,7 +73,7 @@ scikit-image
 #### Install
 
 ```bash
-git clone https://github.com/lizhangray/DTKD.git
+git clone https://github.com/lizhangray/SRDTKD.git
 pip install -r requirements.txt
 ```
 
@@ -117,22 +117,22 @@ pip install -r requirements.txt
     |- Trainer.py
 ```
 
-#### How To Test
+#### How To Infer
 
 ```bash
-python main.py --Train False ----model_name NAME_OF_MODEL --checkpoint CHECKPOINT_PATH --test_folder TESTSET_PATH
+python main_for_infer.py --Train False ----model_name NAME_OF_MODEL --checkpoint CHECKPOINT_PATH --test_folder TESTSET_PATH
 
-# e.g., test DTKD-RFDN in Set5
-python main.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
+# e.g., infer DTKD-RFDN in Set5
+python main_for_infer.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
 
-# e.g., test DTKD-LBNet in Set5
-python main.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
+# e.g., infer DTKD-LBNet in Set5
+python main_for_infer.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
 
-# e.g., test DTKD-RFDN in Urban100
-python main.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
+# e.g., infer DTKD-RFDN in Urban100
+python main_for_infer.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
 
-# e.g., test DTKD-LBNet in Urban100
-python main.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
+# e.g., infer DTKD-LBNet in Urban100
+python main_for_infer.py --Train False --model_name LBNet --checkpoint DTKD-LBNet.pth --test_folder Datasets2023/GTmod12_LRx4/Urban100_LRbicx4
 ```
 
 There are four parameters that must be provided:
@@ -147,11 +147,11 @@ There are four parameters that must be provided:
 
 #### Visual Results
 
-- **DTKD-LBNet** → [DTKD-LBNet_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
-- **DTKD-RFDN** → [DTKD-RFDN_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
-- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
-- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
-- **EdgeSRN** → [EdgeSRN_x4](https://drive.google.com/drive/folders/1NO09TpNnN0Zava3SlmFr0sjzK-fbFIn8?usp=sharing)
+- **DTKD-LBNet** → [DTKD-LBNet_x4](https://pan.quark.cn/s/8e9c1e2a8ce5)
+- **DTKD-RFDN** → [DTKD-RFDN_x4](https://pan.quark.cn/s/8e9c1e2a8ce5)
+- **DTKD-LBNet-perceptual** → [DTKD-LBNet-perceptual_x4](https://pan.quark.cn/s/8e9c1e2a8ce5)
+- **DTKD-RFDN-perceptual** → [DTKD-RFDN-perceptual_x4](https://pan.quark.cn/s/8e9c1e2a8ce5)
+- **EdgeSRN** → [EdgeSRN_x4](https://pan.quark.cn/s/8e9c1e2a8ce5)
 
 ## Citation
 

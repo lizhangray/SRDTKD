@@ -5,7 +5,7 @@
 # @Software: PyCharm
 # @Description: Training and Testing the Student
 
-from Trainer import Trainer
+from Trainer_for_infer import Trainer
 import argparse
 
 parser = argparse.ArgumentParser(description="Initial the trainer setting.")

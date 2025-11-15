@@ -7,6 +7,9 @@ Demo/*
 old/*
 # Pth_record/*
 Result/*
+srdata/*
+logs/*
+training_state/*
 # training_state/*
 # Pth_record/*
 colab
@@ -18,14 +21,16 @@ Checkpoints/SwinIR/lightweightSR_SwinIRx4.pth
 
 # ignored files
 version.py
-main_for_infer.py
-Trainer_for_infer.py
+# main_for_infer.py
+# Trainer_for_infer.py
+main02.py
+Trainer02.py
+demo02.sh
+README02.md
 
 # ignored files with suffix
 *.html
-demo02.sh
 TT_SR.sh
-README02.md
 
 # template
 
