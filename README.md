@@ -129,7 +129,7 @@ pip install -r requirements.txt
 #### How To Infer
 
 ```bash
-python main_for_infer.py --Train False ----model_name NAME_OF_MODEL --checkpoint CHECKPOINT_PATH --test_folder TESTSET_PATH
+python main_for_infer.py --Train False --model_name NAME_OF_MODEL --checkpoint CHECKPOINT_PATH --test_folder TESTSET_PATH
 
 # e.g., infer DTKD-RFDN in Set5
 python main_for_infer.py --Train False --model_name RFDN --checkpoint DTKD-RFDN.pth --test_folder Datasets2023/GTmod12_LRx4/Set5_LRbicx4
