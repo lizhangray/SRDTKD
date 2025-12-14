@@ -1,6 +1,6 @@
 # SRDTKD
 
-## [KBS 2026] 《Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation》
+## [KBS 2026] Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation
 
 ------
 
