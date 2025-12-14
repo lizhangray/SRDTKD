@@ -1,6 +1,6 @@
 # SRDTKD
 
-## [KBS 2025] 《Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation》
+## [KBS 2026] 《Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation》
 
 ------
 
@@ -121,9 +121,9 @@ pip install -r requirements.txt
     |- Model
     |- Utils
     |- demo.sh
-    |- main.py
+    |- main_for_infer.py
     |- requirements.txt
-    |- Trainer.py
+    |- Trainer_for_infer.py
 ```
 
 #### How To Infer
@@ -167,12 +167,16 @@ There are four parameters that must be provided:
 Please cite this paper in your publications if it is helpful for your tasks.
 
 ```tex
-@article{li2025reliable,
+@article{li2026reliable,
   title={Reliable Image Super-Resolution Using Dual-Teacher Knowledge Distillation},
   author={Li, Zhan and Yuan, Weijun and Yao, Boyang and Chen, Yihang and Bhanu, Bir and Zhang, Kehuan},
   journal={Knowledge-Based Systems},
-  pages={114843},
-  year={2025},
+  volume = {333},
+  pages = {114843},
+  year = {2026},
+  issn = {0950-7051},
+  doi = {https://doi.org/10.1016/j.knosys.2025.114843},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950705125018817},
   publisher={Elsevier}
 }
 
