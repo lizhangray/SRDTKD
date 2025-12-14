@@ -174,9 +174,6 @@ Please cite this paper in your publications if it is helpful for your tasks.
   volume = {333},
   pages = {114843},
   year = {2026},
-  issn = {0950-7051},
-  doi = {https://doi.org/10.1016/j.knosys.2025.114843},
-  url = {https://www.sciencedirect.com/science/article/pii/S0950705125018817},
   publisher={Elsevier}
 }
 
